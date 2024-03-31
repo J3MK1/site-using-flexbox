@@ -1,0 +1,430 @@
+@media (prefers-reduced-motion: no-preference) {
+    *{
+        scroll-behavior: smooth;
+    }
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --pink-color: rgb(238, 5, 94);
+}
+
+body {
+    max-width: 100%;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    text-align: center;
+}
+
+main { 
+    width: 780px;
+    height: 900px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    position:fixed;
+    width: 100%;
+    border-bottom: 10px solid var(--pink-color);
+    z-index: 99;
+}
+
+#header-img {
+    object-fit: cover;
+    padding: 10px;
+}
+
+#header i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#header:hover{
+    color: var(--pink-color);
+}
+
+#header-title {
+    font-size: 2rem;
+}
+
+.meilin-about:hover {
+    color: var(--pink-color);
+}
+
+#nav-bar ul {
+    display:flex;
+    list-style-type: none;
+}
+
+.nav-link {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight:700;
+}
+
+.nav-link:hover {
+    color:var(--pink-color);
+}
+
+
+#about-me {
+    margin-bottom: 150px;
+    position: relative;
+    top: 110px;
+}
+
+iframe {
+    width: 420px;
+    height: 240px;
+}
+
+h2, h1, #portfolio-subtitle, #contact h3{
+    font-family: "Caveat", cursive;
+}
+
+h1 {
+    font-size: 48px;
+    padding: 16px;
+}
+
+#about-me h1{
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+quote, hr {
+    position: relative;
+    bottom: 40px;
+}
+
+hr {
+    border: 1px solid var(--pink-color);
+    bottom: 30px;
+    margin: 0;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+quote {
+    font-style: italic;
+    color: rgba(0,0,0,.7);
+    font-size: 20px;
+}
+
+#portfolio-title {
+    padding-top: 30px;
+}
+
+#portfolio-subtitle {
+    position: relative;
+    bottom: 20px;
+    margin: 0 auto;
+    font-size: 24px;
+    color: rgb(211, 204, 207);
+}
+
+#portfolio {
+    background-color: black;
+    color: #fff;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem 0 1rem;
+    border-bottom: 30px solid black;
+}
+
+#portfolio img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 30%;
+    height: 45%;
+    margin: 0 auto;
+    border: 3px solid black;
+    box-shadow: 10px 10px var(--pink-color);
+}
+
+#portfolio hr{
+    position:relative;
+    top: 25px;
+}
+
+.img-wrapper {
+    width: 780px;
+    height: 900px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#pricing {
+    padding-top: 30px;
+    background-image: url("../images/bg.png");
+}
+
+#pricing hr {
+    bottom: 1px;
+}
+
+#price-list {
+    padding: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+#price-list img {
+    border-radius: 10px;
+}
+
+#price-list li {
+    padding: 10px;
+}
+
+#description-pricelist li{
+    list-style-type: none;
+}
+
+#description-pricelist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border: 2px double var(--pink-color);  
+    height: 600px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 15px auto;
+    padding: 5px;
+    box-shadow: 10px 10px;
+    background-color:rgba(255,255,255,0.9);
+}
+
+#img1-price,
+#img2-price,
+#img5-price {
+    width: 180px;
+}
+
+#img3-price,
+#img4-price {
+    width: 200px;
+}
+
+.h3-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pink-color);
+    width: 300px;
+    margin: 0 auto;
+    height: 70px;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+}
+
+.h3-container i {
+    font-size: 16px;
+}
+
+#price-list li h3 {
+    font-size: 20px;
+    color: white;
+}
+
+#price-list p {
+    background-color: black;
+    padding: 10px;
+    margin: 10px auto;
+    width: 220px;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#price-list li span {
+    font-weight: bold;
+}
+
+#emote span {
+    font-size: 16px;
+}
+
+#contact {
+    border-top: 15px solid black;
+}
+
+#contact h2 {
+    color: white;
+    padding-top: 10px;
+}
+
+#contact h3 {
+    position: relative;
+    bottom: 25px;
+    font-size: 28px;
+    color: rgb(211, 204, 207);
+}
+
+#contact {
+    background: black;
+    padding-bottom: 30px;
+}
+
+form {
+    color: white;
+    font-size: 20px;
+}
+
+form input {
+    padding: 8px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--pink-color);
+}
+
+textarea {
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 250px;
+    border: 1px solid var(--pink-color);
+    font-family: Arial, Helvetica, sans-serif;
+    resize:none;
+}
+
+form label i {
+    font-size: 12px;
+}
+
+form label i:hover {
+    color: var(--pink-color);
+}
+
+#submit {
+    background-color: var(--pink-color);
+    width: 130px;
+    font-weight: bold;
+    border:none;
+    border-radius: 10px;
+    color: white;
+}
+
+#submit:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    border-color: #fff;
+}
+
+
+footer {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--pink-color);
+    padding: 10px;
+    height: 100px;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer i {
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+
+footer i:hover {
+    color: black;
+}
+
+
+@media only screen and (max-width: 719px){
+    #header-title {
+        font-size: 1.2rem;
+    }
+
+    #header i {
+        font-size: 0;
+        margin: 0;
+    }
+
+    iframe {
+        width: 400px;
+    }
+
+    .nav-link{
+        display: flex;
+        justify-content: center;;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    #portfolio {
+        height: 750px;
+        max-height: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 1rem 0 1rem;
+    }
+
+    .img-wrapper {
+        height: 600px;
+     }
+
+     #description-pricelist {
+        height: 520px;
+        padding: 0;
+     } 
+
+     #price-list li h3 {
+        font-size: 1rem;
+     }
+
+     #img1-price,
+     #img2-price,
+     #img5-price {
+         width: 130px;
+     }
+     
+     #img3-price,
+     #img4-price {
+         width: 160px;
+     }
+
+
+    quote, 
+    h3,
+    form label, 
+    footer i,
+    #price-list p  {
+        font-size: 1rem;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.7rem;
+    }
+}
